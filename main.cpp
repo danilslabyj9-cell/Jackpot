@@ -7,5 +7,7 @@ int main(int argc, char** argv) {
  printf("Введите своё имя:\n");
  str = gets(str);
  printf("Привет, %s", str);
+ puts("Привет");
+ puts(str);
  return 0;
 }
